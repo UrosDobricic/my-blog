@@ -25,8 +25,11 @@
             <div class="date">
                 {{ post.published_date }}
             </div>
-            <h1><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
+            <h1>{{ post.title }}</h1>
             <p>{{ post.text|linebreaksbr }}</p>
+             <form>
+            <input type="button" value="Weiterlesen" onclick="window.location.href='{% url 'post_detail' pk=post.pk %}'" />
+            </form>
         </div>
     {% endfor %}
 {% endblock %}

@@ -1,5 +1,4 @@
-#!/home/ud/PycharmProjects/blog/blog/myvenv/bin/python3
-
+#!/home/ud/PycharmProjects/blog/blog/myvenv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

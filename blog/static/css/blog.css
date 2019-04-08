@@ -4,20 +4,6 @@
     padding: 20px 20px 20px 40px;
 }
 
-a.button1{
- display:inline-block;
- padding:0.35em 1.2em;
- border:0.1em solid #FFFFFF;
- margin:0 0.3em 0.3em 0;
- border-radius:0.12em;
- box-sizing: border-box;
- text-decoration:none;
- font-family:'Roboto',sans-serif;
- font-weight:300;
- color:#FFFFFF;
- text-align:center;
- transition: all 0.2s;
-}
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
@@ -35,6 +21,9 @@ h1, h2, h3, h4 {
 
 .date {
     color: #828282;
+    font-family: cursive;
+    font-size: 10px;
+    font-style: normal;
 }
 
 .save {
@@ -58,4 +47,8 @@ h1, h2, h3, h4 {
 
 .post h2 a, .post h2 a:visited {
     color: #000000;
+}
+
+.comment {
+    margin: 20px 0px 20px 20px;
 }
